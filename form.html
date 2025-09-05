@@ -18,8 +18,35 @@
         </ul>
     </nav>
 </header>
-<main>
 
+<main>
+    <form action="#" method="post">
+    <h1>Реєстрація</h1>
+
+    <label for="name">Ім’я:</label>
+    <input type="text" id="name" name="user_name" required><br><br>
+    
+    <label for="email">Електронна пошта:</label>
+    <input type="email" id="email" name="user_email" required><br><br>
+    
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="user_password" required><br><br>
+    
+    <label for="confirm_password">Підтвердження пароля:</label>
+    <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+    
+    <p>Формат навчання:</p>
+    <input type="radio" id="online" name="format" value="online">
+    <label for="online">Онлайн</label><br>
+    <input type="radio" id="offline" name="format" value="offline">
+    <label for="offline">Офлайн</label><br><br>
+    
+    <input type="checkbox" id="news" name="news" required>
+    <label for="news">Підписатися на новини курсу</label><br><br>
+    
+    <button type="submit">Зареєструватися</button>
+    
+  </form>
 </main>
 
 <footer>
